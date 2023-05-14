@@ -5,7 +5,7 @@
 class Train {
  private:
   struct Cage {
-   Cage():light(false), next(nullptr), prev(nullptr) {}
+    Cage():light(false), next(nullptr), prev(nullptr) {}
     bool light; // состояние лампочки
     Cage *next;
     Cage *prev;
